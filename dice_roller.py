@@ -12,8 +12,6 @@ def main():
       diceCount = int(diceArg[0])
       diceRange = int(diceArg[1])
       for j in range(0, diceCount):
-        #if diceRange>20:
-            #print('Dice has too many sides. Please try again.')
         if diceRange%2 == 0:
           print('%d' % randint(1, diceRange))
         else:
